@@ -1,0 +1,72 @@
+body {
+    padding: 25px;
+    background-color: lightcyan;
+    color: darkblue;
+    font-family: 'Source Serif Pro', serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.caption {
+    display: flex;
+    justify-content: center;
+}
+.dark-mode {
+    background-color: darkblue;
+    color: lightcyan;
+}
+
+#divbar {
+    display: flex;
+    color: lightcyan;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-style: double;
+    background-color: darkblue;
+    text-align: center;
+}
+
+#divbar a {
+    text-decoration: none;
+    color: lightcyan;
+}
+
+#divbar :hover {
+    color: pink;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.subtitles {
+    color: pink;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-style: double;
+}
+
+.items{
+    color: white;
+    opacity: 0.4;
+}
+
+.items :hover {
+    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    border-style: double;
+    text-align: center;
+}
