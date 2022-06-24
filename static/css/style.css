@@ -1,5 +1,4 @@
 body {
-    padding: 25px;
     background-color: lightcyan;
     color: midnightblue;
     font-family: 'Source Serif Pro', serif;
@@ -7,7 +6,6 @@ body {
 
 .content {
     border-style: double;
-    margin: auto;
 }
 
 .buttondark {
@@ -18,19 +16,11 @@ body {
     top:50%;
 }
 
-.gallery {
-    display: flex;
-    border-style: double;
-    justify-content: center;
-    text-align: center;
-}
-
 .galleryimgs {
     float: left;
     width:  20%;
-    height: 20%;
+    height: 40%;
     opacity: 0.4;
-    justify-content: space-between;
 }
 
 .galleryimgs:hover {
@@ -42,7 +32,7 @@ body {
 
 }
 
-.contact {
+.info {
     display: flex;
     border-style: double;
     justify-content: center;
