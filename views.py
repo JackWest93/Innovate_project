@@ -20,6 +20,6 @@ def contact():
 def ice_cream():
     return render_template("ice_cream.html")
 
-@views.route("/shopping_cart")
-def shopping_cart():
-    return render_template("shopping_cart.html")
+@views.route("/gallery")
+def gallery():
+    return render_template("gallery.html")

@@ -5,14 +5,28 @@
 {% extends 'base.html' %}
 {% block content %}
 <div class="content">
-    <h2>
+    <h2 class="items">
         Cakes
     </h2>
-    <div>
-        
-    </div>
-    <div>
-
+    <div class="items">
+        <div class="items-hidden">
+            <span>
+                Everyday
+            </span>
+            <img class="images" src="{{url_for('static', filename='images/victoria.jpg')}}" alt="victoria">
+        </div>
+        <div class="items-hidden">
+            <span>
+                Wedding
+            </span>
+            <img class="images" src="{{url_for('static', filename='images/wedding.jpg')}}" alt="wedding">
+        </div>
+        <div class="items-hidden">
+            <span>
+                Birthday
+            </span>
+            <img class="images" src="{{url_for('static', filename='images/birthday.jpg')}}" alt="birthday">
+        </div>
     </div>
 </div>
 {% endblock %}

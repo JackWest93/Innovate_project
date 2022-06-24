@@ -1,10 +1,53 @@
 body {
     padding: 25px;
     background-color: lightcyan;
-    color: darkblue;
+    color: midnightblue;
     font-family: 'Source Serif Pro', serif;
 }
 
+.content {
+    border-style: double;
+    margin: auto;
+}
+
+.buttondark {
+    position:relative;
+    left:5%;
+    right:10%;
+    bottom:10%;
+    top:50%;
+}
+
+.gallery {
+    display: flex;
+    border-style: double;
+    justify-content: center;
+    text-align: center;
+}
+
+.galleryimgs {
+    float: left;
+    width:  20%;
+    height: 20%;
+    opacity: 0.4;
+    justify-content: space-between;
+}
+
+.galleryimgs:hover {
+    opacity: 1;
+}
+
+.images {
+    opacity: 0.3;
+
+}
+
+.contact {
+    display: flex;
+    border-style: double;
+    justify-content: center;
+    text-align: center;
+}
 h1 {
     display: flex;
     justify-content: center;
@@ -16,57 +59,49 @@ h1 {
     justify-content: center;
 }
 .dark-mode {
-    background-color: darkblue;
+    background-color: midnightblue;
     color: lightcyan;
 }
 
-#divbar {
+.navbar {
     display: flex;
     color: lightcyan;
     justify-content: center;
     justify-content: space-evenly;
     border-style: double;
-    background-color: darkblue;
+    background-color: midnightblue;
     text-align: center;
 }
 
-#divbar a {
+.navbar a {
     text-decoration: none;
     color: lightcyan;
 }
 
-#divbar :hover {
+.navbar :hover {
     color: pink;
     cursor: pointer;
 }
 
-.hidden {
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.items-hidden {
     display: none;
 }
-
-.subtitles {
-    color: pink;
-}
-
-#contact {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-    border-style: double;
-}
-
-.items{
-    color: white;
-    opacity: 0.4;
-}
-
-.items :hover {
-    
-}
-
-.content {
-    display: flex;
-    justify-content: center;
-    border-style: double;
+.content:hover .items-hidden{
+    justify-content: space-around;
     text-align: center;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 600px) {
+    .gallery {
+    width: 50%;
+    }
 }
